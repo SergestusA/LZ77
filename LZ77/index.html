@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LZ77</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="lz77__container">
+        <h1 class="lz77__title">Алгоритм LZ77</h1>
+        <div class="lz77__form">
+            <label for="lz77-input" class="lz77__label">Введите строку для сжатия:</label>
+            <input type="text" id="lz77-input" class="lz77__input">
+            <button class="lz77__button" onclick="compress()">Сжать</button>
+            <div class="lz77__output" id="lz77-output"></div>
+        </div>
+        <div class="lz77__form">
+            <label for="lz77-decode-input" class="lz77__label">Введите сжатую строку для декодирования:</label>
+            <input type="text" id="lz77-decode-input" class="lz77__input">
+            <button class="lz77__button" onclick="decompress()">Декодировать</button>
+            <div class="lz77__decoded" id="lz77-decoded"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

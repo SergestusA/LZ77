@@ -1,0 +1,52 @@
+.lz77__container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.lz77__title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.lz77__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+.lz77__label {
+    font-size: 18px;
+}
+.lz77__input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+.lz77__button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+.lz77__button:hover {
+    background-color: #0056b3;
+    
+}
+.lz77__output {
+    /* margin-top: 20px; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.lz77__decoded {
+    /* margin-top: 20px; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
